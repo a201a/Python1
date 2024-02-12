@@ -2,4 +2,4 @@ import telebot
 from main import bot
 @bot.message_handler(commands=['help'])
 def send_help(message):
-        bot.send_message(chat_id, 'حدث خطأ غير متوقع.')
+    bot.reply_to(message, "هذا بوت تجريبي. لمزيد من المعلومات حول الأوامر المتاحة، انظر إلى الأوامر المتوفرة.")
