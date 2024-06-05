@@ -12,3 +12,4 @@ def handle_delete_message(message):
 
     # أرسل رسالة جديدة تؤكد على حدوث الحذف
     bot.send_message(chat_id, delete_text)
+  
