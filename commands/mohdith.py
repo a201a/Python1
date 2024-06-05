@@ -2,10 +2,10 @@ import telebot
 import requests
 from main import bot
 
-api_url_mohdith = 'https://dorar-hadith-api-production.up.railway.app/v1/site/mohdith/'
+api_url_mohdith = 'https://dorar-hadith-api-one.vercel.app/v1/site/mohdith/'
 
 def search_mohdith_by_name(mohdith_name):
-    url = "https://dorar-hadith-api-production.up.railway.app/v1/data/mohdith"
+    url = "https://dorar-hadith-api-one.vercel.app/v1/data/mohdith"
     response = requests.get(url)
 
     if response.status_code == 200:

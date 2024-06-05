@@ -2,7 +2,7 @@ import telebot
 import requests
 from main import bot
 
-api_url_degree = 'https://dorar-hadith-api-production.up.railway.app/v1/data/degree'
+api_url_degree = 'https://dorar-hadith-api-one.vercel.app/v1/data/degree'
 
 @bot.message_handler(commands=['درجة'])
 def get_hadith_degrees(message):

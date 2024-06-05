@@ -2,7 +2,7 @@ import telebot
 import requests
 from main import bot
 
-api_url_hadith = 'https://dorar-hadith-api-production.up.railway.app/v1/api/hadith/search?value='
+api_url_hadith = 'https://dorar-hadith-api-one.vercel.app/v1/api/hadith/search?value='
 
 def get_formatted_hadiths(hadiths):
     return [

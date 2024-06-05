@@ -2,7 +2,7 @@ import telebot
 import requests
 from main import bot
 
-api_url_sharh = 'https://dorar-hadith-api-production.up.railway.app/v1/site/sharh/text/'
+api_url_sharh = 'https://dorar-hadith-api-one.vercel.app/v1/site/sharh/text/'
 
 @bot.message_handler(commands=['شرح'])
 def get_hadith_sharh(message):
